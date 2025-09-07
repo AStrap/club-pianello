@@ -12,7 +12,6 @@ This new design has elements that have been the result of research regarding ink
 
 **[NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme)** was built with the help of [nextjs](https://nextjs.org/?ref=creativetim) and it uses a framework built by our friends from **[Material-UI](https://material-ui.com/?ref=creativetim)**, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to this team for the effort and forward thinking they put into it.
 
-
 ## Table of Contents
 
 - [Versions](#versions)
@@ -60,6 +59,7 @@ This new design has elements that have been the result of research regarding ink
 - Install with [Bower](https://bower.io/?ref=creativetim): `bower install nextjs-material-kit`.
 
 ## Deploy
+
 :rocket: You can deploy your own version of the template to Genezio with one click:
 
 [![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/nextjs-material-kit&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)

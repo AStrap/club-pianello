@@ -41,7 +41,7 @@ export default function Parallax(props) {
     [classes.filter]: filter,
     [classes.small]: small,
     [classes.parallaxResponsive]: responsive,
-    [className]: className !== undefined
+    [className]: className !== undefined,
   });
   return (
     <div
@@ -49,7 +49,7 @@ export default function Parallax(props) {
       style={{
         ...style,
         backgroundImage: "url(" + image + ")",
-        transform: transform
+        transform: transform,
       }}
     >
       {children}
@@ -65,5 +65,5 @@ Parallax.propTypes = {
   image: PropTypes.string,
   small: PropTypes.bool,
   // this will add a min-height of 660px on small screens
-  responsive: PropTypes.bool
+  responsive: PropTypes.bool,
 };

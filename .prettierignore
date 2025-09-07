@@ -1,1 +1,5 @@
 Documentation/assets/js
+
+.next/
+
+node_modules/
