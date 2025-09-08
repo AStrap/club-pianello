@@ -68,7 +68,6 @@ export default function Header(props) {
     <Link href="/landing" as="/landing">
       <div>
         <img
-          id="logoPianello" 
           alt="logo pianello"
           src={logoSrc}
           style={{height: "60px"}}

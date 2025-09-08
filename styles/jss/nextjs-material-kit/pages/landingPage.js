@@ -1,5 +1,7 @@
 import { container, title } from "/styles/jss/nextjs-material-kit.js";
 
+import imagesStyle from "/styles/jss/nextjs-material-kit/imagesStyles.js";
+
 const landingPageStyle = {
   container: {
     zIndex: "12",
@@ -15,6 +17,7 @@ const landingPageStyle = {
     color: "#FFFFFF",
     textDecoration: "none",
   },
+  ...imagesStyle,
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",
