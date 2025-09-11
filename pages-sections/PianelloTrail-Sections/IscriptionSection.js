@@ -36,7 +36,7 @@ export default function ProductSection() {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="10 biglietti + 1 GRATIS"
-                description="acquistando 10 biglietti, l'unicesimo sarà in omaggio"
+                description="acquistando 10 biglietti, l'undicesimo sarà in omaggio"
                 vertical
               />
             </GridItem>

@@ -28,101 +28,103 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h4 className={classes.title}>Alcuni passaggi suggestivi Pianello Trail Run</h4>
+          <h4 className={classes.title}>
+            Alcuni passaggi suggestivi Pianello Trail Run
+          </h4>
         </GridItem>
       </GridContainer>
       <GridContainer>
-          <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
-            <Card carousel>
-              <Carousel {...settings} style={{height: "757px"}}>
-                <div>
-                  <img
-                    src="/img/pianello/01 chiesa pianello.png"
-                    alt="chiesa pianello"
-                    className="slick-image"
-                    style={{height: "757px"}}
+        <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
+          <Card carousel>
+            <Carousel {...settings} style={{ height: "757px" }}>
+              <div>
+                <img
+                  src="/img/pianello/01 chiesa pianello.png"
+                  alt="chiesa pianello"
+                  className="slick-image"
+                  style={{ height: "757px" }}
                 />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons"/>
-                      Chiesa di Pianello
-                    </h4>
-                  </div>
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Chiesa di Pianello
+                  </h4>
                 </div>
-                <div>
-                  <img
-                    src="/img/pianello/02 scale di primolano.png"
-                    alt="scale di primolano"
-                    className="slick-image"
-                    style={{height: "757px"}}
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Scala di Primolano
-                    </h4>
-                  </div>
+              </div>
+              <div>
+                <img
+                  src="/img/pianello/02 scale di primolano.png"
+                  alt="scale di primolano"
+                  className="slick-image"
+                  style={{ height: "757px" }}
+                />
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Scala di Primolano
+                  </h4>
                 </div>
-                <div>
-                  <img
-                    src="/img/pianello/03 forte tagliata della scala.png"
-                    alt="entrata forte tagliata della scala"
-                    className="slick-image"
-                    style={{height: "757px"}}
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Entrata forte 'tagliata della scala' di Primolano
-                    </h4>
-                  </div>
+              </div>
+              <div>
+                <img
+                  src="/img/pianello/03 forte tagliata della scala.png"
+                  alt="entrata forte tagliata della scala"
+                  className="slick-image"
+                  style={{ height: "757px" }}
+                />
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Entrata forte 'tagliata della scala' di Primolano
+                  </h4>
                 </div>
-                <div>
-                  <img
-                    src="/img/pianello/04 forte tagliata della scala.png"
-                    alt="interno forte tagliata della scala"
-                    className="slick-image"
-                    style={{height: "757px"}}
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Interno forte 'tagliata della scala' di Primolano
-                    </h4>
-                  </div>
+              </div>
+              <div>
+                <img
+                  src="/img/pianello/04 forte tagliata della scala.png"
+                  alt="interno forte tagliata della scala"
+                  className="slick-image"
+                  style={{ height: "757px" }}
+                />
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Interno forte 'tagliata della scala' di Primolano
+                  </h4>
                 </div>
-                <div>
-                  <img
-                    src="/img/pianello/05 maso calchèra san giorgio.png"
-                    alt="maso calchèra san giorgio"
-                    className="slick-image"
-                    style={{height: "757px"}}
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Maso calchèra San Giorgio
-                    </h4>
-                  </div>
+              </div>
+              <div>
+                <img
+                  src="/img/pianello/05 maso calchèra san giorgio.png"
+                  alt="maso calchèra san giorgio"
+                  className="slick-image"
+                  style={{ height: "757px" }}
+                />
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Maso calchèra San Giorgio
+                  </h4>
                 </div>
-                <div>
-                  <img
-                    src="/img/pianello/06 calchera.png"
-                    alt="calchèra"
-                    className="slick-image"
-                    style={{height: "757px"}}
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Vista frontale calchèra
-                    </h4>
-                  </div>
+              </div>
+              <div>
+                <img
+                  src="/img/pianello/06 calchera.png"
+                  alt="calchèra"
+                  className="slick-image"
+                  style={{ height: "757px" }}
+                />
+                <div className="slick-caption">
+                  <h4>
+                    <LocationOn className="slick-icons" />
+                    Vista frontale calchèra
+                  </h4>
                 </div>
-              </Carousel>
-            </Card>
-          </GridItem>
-        </GridContainer>
+              </div>
+            </Carousel>
+          </Card>
+        </GridItem>
+      </GridContainer>
     </div>
   );
 }

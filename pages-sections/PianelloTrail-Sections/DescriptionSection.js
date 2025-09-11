@@ -39,10 +39,21 @@ export default function ProductSection() {
       </GridContainer>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Pianello Trail Run e Circuito 3IL RUN</h2>
-          <h3 className={classes.description}>Pianello Trail Run è la competizione finale del Circuito 3IL Run Valsugana +400: il tempo della discesa verrà sommato ai tempi delle due salite per la classifica finale della 3IL Run Valsugana +400.</h3>
-          <h3 className={classes.description}>In collaborazione con “CRONOSCALATA PIOVEGA" - ENDURANCE TEAM e “DON CESARE TRAIL” - PRO LOCO BORGO VALSUGANA.</h3>
-          <h3 className={classes.description}>CIRCUITO 3IL RUN (TODO sotto sistemare logo)</h3>
+          <h2 className={classes.title}>
+            Pianello Trail Run e Circuito 3IL RUN
+          </h2>
+          <h3 className={classes.description}>
+            Pianello Trail Run è la competizione finale del Circuito 3IL Run
+            Valsugana +400: il tempo della discesa verrà sommato ai tempi delle
+            due salite per la classifica finale della 3IL Run Valsugana +400.
+          </h3>
+          <h3 className={classes.description}>
+            In collaborazione con “CRONOSCALATA PIOVEGA" - ENDURANCE TEAM e “DON
+            CESARE TRAIL” - PRO LOCO BORGO VALSUGANA.
+          </h3>
+          <h3 className={classes.description}>
+            CIRCUITO 3IL RUN (TODO sotto sistemare logo)
+          </h3>
           <img
             alt="logo trailrun"
             src={"/img/pianello/logo3ilwh.png"}

@@ -16,7 +16,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>CONSULTA IL REGOLAMENTO PER AVERE INFO DETTAGLIATE</h2>
+          <h2 className={classes.title}>
+            CONSULTA IL REGOLAMENTO PER AVERE INFO DETTAGLIATE
+          </h2>
           <h3 className={classes.description}>DOCUMENTI</h3>
           <h3 className={classes.description}>REGOLAMENTO</h3>
           <h3 className={classes.description}>ISCRIVITI</h3>
