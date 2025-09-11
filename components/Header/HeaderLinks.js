@@ -1,7 +1,3 @@
-/*eslint-disable*/
-import React from "react";
-import Link from "next/link";
-
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
@@ -21,9 +17,8 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/pianelloTrail"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           PIANELLO TRAIL RUN
@@ -31,9 +26,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/valsuganaColor"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           VALSUGANA COLOR RUN
@@ -41,9 +35,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/3IlRun"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           3IL RUN
@@ -51,9 +44,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/whoWeAre"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           CHI SIAMO
@@ -61,9 +53,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/sponsor"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           SPONSOR
@@ -71,9 +62,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/faqColor"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           FAQ COLOR
@@ -81,9 +71,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/contacts"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           CONTATTI
@@ -98,7 +87,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://www.facebook.com/clubpianello/"
             target="_blank"
             className={classes.navLink}
           >
@@ -115,7 +104,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/club_pianello/"
             target="_blank"
             className={classes.navLink}
           >
