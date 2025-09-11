@@ -17,9 +17,11 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "/pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "/pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "/pages-sections/LandingPage-Sections/WorkSection.js";
+import DescriptionSection from "/pages-sections/PianelloTrail-Sections/DescriptionSection.js";
+import IscriptionSection from "/pages-sections/PianelloTrail-Sections/IscriptionSection.js";
+import RuleSection from "/pages-sections/PianelloTrail-Sections/RuleSection.js";
+import ScheduleSection from "/pages-sections/PianelloTrail-Sections/ScheduleSection.js";
+import GallerySection from "/pages-sections/PianelloTrail-Sections/GallerySection.js";
 
 const dashboardRoutes = [];
 
@@ -41,7 +43,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 320,
+          height: 50,
           color: "white",
         }}
         {...rest}
@@ -50,21 +52,26 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
-                <img
-                  alt="banner Testo"
-                  src="/img/pianello/bannerText.png"
-                  className={imageClasses}
-                  style={{width: "100%"}}
-                /> 
+              <img
+                alt="banner Testo"
+                src="/img/pianello/bannerText.png"
+                className={imageClasses}
+                style={{ width: "100%" }}
+              />
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <div
+        className={classNames(classes.main, classes.mainRaised)}
+        style={{ margin: "-680px 30px 0px" }}
+      >
         <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
-          <WorkSection />
+          <DescriptionSection />
+          <IscriptionSection />
+          <RuleSection />
+          <ScheduleSection />
+          <GallerySection />
         </div>
       </div>
       <Footer />

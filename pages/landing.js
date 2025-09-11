@@ -50,12 +50,12 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
-                <img
-                  alt="banner Testo"
-                  src="/img/pianello/bannerText.png"
-                  className={imageClasses}
-                  style={{width: "100%"}}
-                /> 
+              <img
+                alt="banner Testo"
+                src="/img/pianello/bannerText.png"
+                className={imageClasses}
+                style={{ width: "100%" }}
+              />
             </GridItem>
           </GridContainer>
         </div>

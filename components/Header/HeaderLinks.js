@@ -34,11 +34,7 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/3IlRun"
-          color="transparent"
-          className={classes.navLink}
-        >
+        <Button href="/3IlRun" color="transparent" className={classes.navLink}>
           3IL RUN
         </Button>
       </ListItem>
@@ -52,11 +48,7 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/sponsor"
-          color="transparent"
-          className={classes.navLink}
-        >
+        <Button href="/sponsor" color="transparent" className={classes.navLink}>
           SPONSOR
         </Button>
       </ListItem>

@@ -21,7 +21,9 @@ const useStyles = makeStyles(styles);
 export default function Header(props) {
   const classes = useStyles();
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const [logoSrc, setLogoSrc] = React.useState("/img/pianello/logopianellowh.png");
+  const [logoSrc, setLogoSrc] = React.useState(
+    "/img/pianello/logopianellowh.png"
+  );
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
       window.addEventListener("scroll", headerColorChange);
@@ -53,7 +55,7 @@ export default function Header(props) {
       document.body
         .getElementsByTagName("header")[0]
         .classList.remove(classes[changeColorOnScroll.color]);
-      setLogoSrc("/img/pianello/logopianellowh.png");      
+      setLogoSrc("/img/pianello/logopianellowh.png");
     }
   };
   const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
@@ -66,15 +68,11 @@ export default function Header(props) {
   const brandComponent = (
     <Link href="/landing" as="/landing">
       <div>
-        <img
-          alt="logo pianello"
-          src={logoSrc}
-          style={{height: "60px"}}
-        />
+        <img alt="logo pianello" src={logoSrc} style={{ height: "60px" }} />
         <img
           alt="logo su e do"
           src="/img/pianello/suedo46.png"
-          style={{height: "60px", marginLeft: "10px"}}
+          style={{ height: "60px", marginLeft: "10px" }}
         />
       </div>
     </Link>

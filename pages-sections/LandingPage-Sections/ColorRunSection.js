@@ -25,7 +25,7 @@ export default function ProductSection() {
           <img
             alt="logo trailrun"
             src={"/img/pianello/logocolorrun.png"}
-            style={{height: "460px"}}
+            style={{ height: "460px" }}
           />
           <h3 className={classes.description}>
             VALSUGANA COLOR RUN EDIZIONE CRAZY
@@ -35,18 +35,10 @@ export default function ProductSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="ISCRIVITI"
-              description=""
-              vertical
-            />
+            <InfoArea title="ISCRIVITI" description="" vertical />
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="PROGRAMMA"
-              description=""
-              vertical
-            /> 
+            <InfoArea title="PROGRAMMA" description="" vertical />
           </GridItem>
         </GridContainer>
       </div>

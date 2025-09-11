@@ -25,31 +25,21 @@ export default function ProductSection() {
           <img
             alt="logo trailrun"
             src={"/img/pianello/logotrailrun.png"}
-            style={{height: "460px"}}
+            style={{ height: "460px" }}
           />
           <h3 className={classes.description}>
             PIANELLO TRAIL RUN, SPETTACOLO PIROTECNICO, SERATA DANZANTE
           </h3>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="CLASSIFICHE TRAIL RUN"
-              description=""
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="CIRCUITO 3IL RUN "
-              description=""
-              vertical
-            /> 
-          </GridItem>
-        </GridContainer>
-      </div>
+      <GridContainer>
+        <GridItem xs={12} sm={12} md={6}>
+          <InfoArea title="CLASSIFICHE TRAIL RUN" description="" vertical />
+        </GridItem>
+        <GridItem xs={12} sm={12} md={6}>
+          <InfoArea title="CIRCUITO 3IL RUN " description="" vertical />
+        </GridItem>
+      </GridContainer>
     </div>
   );
 }

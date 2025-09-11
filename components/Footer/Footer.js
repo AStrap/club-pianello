@@ -42,7 +42,7 @@ export default function Footer(props) {
           <img
             alt="logo trailrun"
             src={"/img/pianello/logoaptwh.png"}
-            style={{height: "50px"}}
+            style={{ height: "50px" }}
           />
         </div>
       </div>
