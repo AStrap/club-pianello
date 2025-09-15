@@ -46,14 +46,12 @@ export default function ProductSection() {
             È possibile trasferire la mia iscrizione ad altra persona?
           </h4>
           <h4 className={classes.description}>
-             Devo produrre dei documenti particolari per iscrivermi?
+            Devo produrre dei documenti particolari per iscrivermi?
           </h4>
           <h4 className={classes.description}>
             Devo essere un corridore professionista per partecipare?
           </h4>
-          <h4 className={classes.title}>
-            CONTATTACI
-          </h4>
+          <h4 className={classes.title}>CONTATTACI</h4>
         </GridItem>
       </GridContainer>
     </div>
