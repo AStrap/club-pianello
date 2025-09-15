@@ -20,6 +20,7 @@ import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 import DescriptionSection from "/pages-sections/ValsuganaColor-Sections/DescriptionSection.js";
 import IscriptionSection from "/pages-sections/ValsuganaColor-Sections/IscriptionSection.js";
 import ScheduleSection from "/pages-sections/ValsuganaColor-Sections/ScheduleSection.js";
+import FaqSection from "/pages-sections/ValsuganaColor-Sections/FaqSection.js";
 
 const dashboardRoutes = [];
 
@@ -68,6 +69,8 @@ export default function LandingPage(props) {
           <DescriptionSection />
           <IscriptionSection />
           <ScheduleSection />
+          <hr />
+          <FaqSection />
         </div>
       </div>
       <Footer />
