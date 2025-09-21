@@ -32,7 +32,7 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <Button
-            href="/"
+            href="/rankingTrail"
             color="transparent"
             className={classes.navLink}
           >

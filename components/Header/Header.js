@@ -67,7 +67,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/landing" as="/landing">
-      <div>
+      <div style={{ cursor: "pointer" }}>
         <img alt="logo pianello" src={logoSrc} style={{ height: "60px" }} />
         <img
           alt="logo su e do"

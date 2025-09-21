@@ -32,7 +32,7 @@ export default function ProductSection() {
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
             <Button
-              href="/"
+              href="https://www.visitvalsugana.it/it/landing-esperienze/#/esperienze/TRN/f3de36c6-fdcd-46bd-93c3-3e06a562f699/valsugana-color-run"
               color="transparent"
               className={classes.navLink}
             >
