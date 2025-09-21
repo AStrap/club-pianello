@@ -14,7 +14,7 @@ const landingPageStyle = {
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#FFFFFF",
+    color: "#ffffffff",
     textDecoration: "none",
   },
   ...imagesStyle,
@@ -24,7 +24,7 @@ const landingPageStyle = {
     margin: "10px auto 0",
   },
   main: {
-    background: "#FFFFFF",
+    background: "#ffffffff",
     position: "relative",
     zIndex: "3",
   },

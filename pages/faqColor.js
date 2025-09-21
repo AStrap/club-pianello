@@ -33,7 +33,7 @@ export default function LandingPage(props) {
     classes.imgFluid
   );
   return (
-    <div>
+    <div style={{ backgroundColor: "#04111e" }}>
       <Header
         color="transparent"
         routes={dashboardRoutes}
