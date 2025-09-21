@@ -17,9 +17,8 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "/pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "/pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "/pages-sections/LandingPage-Sections/WorkSection.js";
+import FaqSection from "/pages-sections/ValsuganaColor-Sections/FaqSection.js";
+import AnswerSection from "/pages-sections/FaqColor-Sections/AnswerSection.js";
 
 const dashboardRoutes = [];
 
@@ -41,7 +40,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 320,
+          height: 50,
           color: "white",
         }}
         {...rest}
@@ -60,11 +59,14 @@ export default function LandingPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <div
+        className={classNames(classes.main, classes.mainRaised)}
+        style={{ margin: "-680px 30px 0px" }}
+      >
         <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
-          <WorkSection />
+          <FaqSection />
+          <hr />
+          <AnswerSection />
         </div>
       </div>
       <Footer />

@@ -63,7 +63,7 @@ export default function LandingPage(props) {
         style={{ margin: "-680px 30px 0px" }}
       >
         <div className={classes.container}>
-          <DescriptionSection/>
+          <DescriptionSection />
         </div>
       </div>
       <Footer />

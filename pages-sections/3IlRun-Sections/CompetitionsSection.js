@@ -58,30 +58,34 @@ export default function ProductSection() {
       </GridContainer>
       <GridContainer>
         <GridItem xs={12} sm={12} md={4}>
-            <InfoArea title="ASSOCIAZIONE CLUB PIANELLO" description="" vertical />
-            <img
+          <InfoArea
+            title="ASSOCIAZIONE CLUB PIANELLO"
+            description=""
+            vertical
+          />
+          <img
             alt="logo pianello trail run"
             src={"/img/pianello/logopianellobl.png"}
             style={{ width: "70%" }}
           />
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
-            <InfoArea title="PRO LOCO BORGO VALSUGANA" description="" vertical />
-            <img
+          <InfoArea title="PRO LOCO BORGO VALSUGANA" description="" vertical />
+          <img
             alt="logo pro loco borgo"
             src={"/img/pianello/prolocoborgo.png"}
             style={{ width: "70%" }}
           />
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
-            <InfoArea title="ENDURANCE TEAM" description="" vertical />
-            <img
+          <InfoArea title="ENDURANCE TEAM" description="" vertical />
+          <img
             alt="logo endurance"
             src={"/img/pianello/endurancelogo.png"}
             style={{ width: "70%", height: "200px" }}
           />
         </GridItem>
-    </GridContainer>
+      </GridContainer>
     </div>
   );
 }

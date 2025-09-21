@@ -25,9 +25,7 @@ const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
-  const imageClasses = classNames(
-    classes.imgFluid
-  );
+  const imageClasses = classNames(classes.imgFluid);
   return (
     <div>
       <Header
@@ -61,11 +59,11 @@ export default function LandingPage(props) {
       >
         <div className={classes.container}>
           <img
-                alt="banner Testo"
-                src="/img/pianello/sponsors.png"
-                className={imageClasses}
-                style={{ width: "90%", margin: "20px" }}
-              />
+            alt="banner Testo"
+            src="/img/pianello/sponsors.png"
+            className={imageClasses}
+            style={{ width: "90%", margin: "20px" }}
+          />
         </div>
       </div>
       <Footer />
