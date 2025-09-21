@@ -3,7 +3,6 @@ import { container, primaryColor } from "/styles/jss/nextjs-material-kit.js";
 const footerStyle = {
   block: {
     color: "inherit",
-    padding: "0.9375rem",
     fontWeight: "500",
     fontSize: "12px",
     textTransform: "uppercase",
@@ -14,6 +13,9 @@ const footerStyle = {
   },
   left: {
     float: "left!important",
+    textAlign: "left",
+    padding: "15px 0",
+    margin: "0",
     display: "block",
   },
   right: {

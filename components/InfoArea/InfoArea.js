@@ -31,11 +31,6 @@ export default function InfoArea(props) {
     </div>
   );
 }
-
-/*<div className={iconWrapper}>
-  <props.icon className={iconClasses} />
-</div>*/
-
 InfoArea.defaultProps = {
   iconColor: "gray",
 };
