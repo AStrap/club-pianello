@@ -15,6 +15,7 @@ import styles from "/styles/jss/nextjs-material-kit/pages/componentsSections/car
 const useStyles = makeStyles(styles);
 
 export default function SectionCarousel() {
+  
   const classes = useStyles();
   const settings = {
     dots: true,
@@ -22,7 +23,7 @@ export default function SectionCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: false
   };
   return (
     <div className={classes.section}>
@@ -30,7 +31,7 @@ export default function SectionCarousel() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <Card carousel>
-              <Carousel {...settings}>
+              <Slider {...settings}>
                 <div>
                   <img
                     src="/img/bg.jpg"

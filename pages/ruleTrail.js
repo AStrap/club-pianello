@@ -16,13 +16,6 @@ import Parallax from "/components/Parallax/Parallax.js";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
-// Sections for this page
-import DescriptionSection from "/pages-sections/PianelloTrail-Sections/DescriptionSection.js";
-import IscriptionSection from "/pages-sections/PianelloTrail-Sections/IscriptionSection.js";
-import RuleSection from "/pages-sections/PianelloTrail-Sections/RuleSection.js";
-import ScheduleSection from "/pages-sections/PianelloTrail-Sections/ScheduleSection.js";
-import GallerySection from "/pages-sections/PianelloTrail-Sections/GallerySection.js";
-
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -67,11 +60,7 @@ export default function LandingPage(props) {
         style={{ margin: "-680px 30px 0px" }}
       >
         <div style={{background: "#e44051", borderRadius: "6px"}}>
-          <DescriptionSection />
-          <IscriptionSection />
-          <RuleSection />
-          <ScheduleSection />
-          <GallerySection />
+          
         </div>
       </div>
       <Footer />

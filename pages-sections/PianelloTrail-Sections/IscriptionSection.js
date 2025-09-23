@@ -14,7 +14,7 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{backgroundColor: "#e65e6cff"}}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h3 className={classes.title}>QUOTE DI ISCRIZIONE</h3>
@@ -23,12 +23,13 @@ export default function ProductSection() {
               <InfoArea
                 title="10.00 €"
                 description="dal 03 marzo al 29 maggio"
+                iconColor="primary"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="10.00 €"
+                title="15.00 €"
                 description="dal 30 al 31 maggio"
                 vertical
               />
@@ -45,25 +46,25 @@ export default function ProductSection() {
       </GridContainer>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>L’ISCRIZIONE COMPRENDE:</h2>
-          <h3 className={classes.description}>
+          <h3 className={classes.title}>L’ISCRIZIONE COMPRENDE:</h3>
+          <h4 className={classes.description}>
             Pacco gara con gadget manifestazione
-          </h3>
-          <h3 className={classes.description}>Assicurazione</h3>
-          <h3 className={classes.description}>
+          </h4>
+          <h4 className={classes.description}>Assicurazione</h4>
+          <h4 className={classes.description}>
             Deposito zaini in prossimità della partenza/arrivo (tensostruttura
             manifestazione) NON custodito
-          </h3>
-          <h3 className={classes.description}>
+          </h4>
+          <h4 className={classes.description}>
             Ristoro intermedio (all’uscita del forte, quota circa 600m)
-          </h3>
-          <h3 className={classes.description}>
+          </h4>
+          <h4 className={classes.description}>
             Ristoro finale (presso Maso Calchèra San Giorgio)
-          </h3>
-          <h3 className={classes.description}>
+          </h4>
+          <h4 className={classes.description}>
             Assistenza sanitaria sul percorso e all’arrivo
-          </h3>
-          <h3 className={classes.description}>Medaglia finale</h3>
+          </h4>
+          <h4 className={classes.description}>Medaglia finale</h4>
         </GridItem>
       </GridContainer>
     </div>
