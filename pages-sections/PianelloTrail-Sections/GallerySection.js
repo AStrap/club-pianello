@@ -43,7 +43,7 @@ export default function ProductSection() {
     slidesToScroll: 1,
     autoplay: true,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <div className={classes.section}>
@@ -73,14 +73,16 @@ export default function ProductSection() {
       </GridContainer>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h3 className={classes.title} style={{marginTop: "40px"}}>
+          <h3 className={classes.title} style={{ marginTop: "40px" }}>
             Alcuni passaggi suggestivi Pianello Trail Run
           </h3>
         </GridItem>
       </GridContainer>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <Card style={{ marginTop: "0", height: "757px", borderRadius: "10px" }}>
+          <Card
+            style={{ marginTop: "0", height: "757px", borderRadius: "10px" }}
+          >
             <Carousel {...settings} style={{ borderRadius: "10px" }}>
               <div>
                 <img

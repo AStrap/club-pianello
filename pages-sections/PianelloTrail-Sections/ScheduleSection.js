@@ -14,17 +14,19 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}  style={{backgroundColor: "#e65e6cff"}}>
+    <div className={classes.section} style={{ backgroundColor: "#e65e6cff" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
-          <h2 className={classes.title} style={{marginTop: "0"}}>SABATO 31 MAGGIO 2025</h2>
-          <h4 className={classes.description} style={{marginTop: "0"}}>
+          <h2 className={classes.title} style={{ marginTop: "0" }}>
+            SABATO 31 MAGGIO 2025
+          </h2>
+          <h4 className={classes.description} style={{ marginTop: "0" }}>
             Giornata Pianello Trail Run con spettacolo pirotecnico
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <GridContainer justify="center">
-            <GridItem xs={4} sm={4} md={2} style={{marginTop: "10px"}}>
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
               <h3 className={classes.description}>Ore 13.30</h3>
             </GridItem>
             <GridItem xs={4} sm={4} md={4}>
@@ -37,7 +39,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <GridContainer justify="center">
-            <GridItem xs={4} sm={4} md={2} style={{marginTop: "10px"}}>
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
               <h3 className={classes.description}>Ore 16.00</h3>
             </GridItem>
             <GridItem xs={4} sm={4} md={4}>
@@ -50,7 +52,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <GridContainer justify="center">
-            <GridItem xs={4} sm={4} md={2} style={{marginTop: "10px"}}>
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
               <h3 className={classes.description}>Ore 19.00</h3>
             </GridItem>
             <GridItem xs={4} sm={4} md={4}>
@@ -66,15 +68,17 @@ export default function ProductSection() {
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <GridContainer justify="center">
-            <GridItem xs={4} sm={4} md={2} style={{marginTop: "10px"}}>
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
               <h3 className={classes.description}>Ore 20.30</h3>
             </GridItem>
             <GridItem xs={4} sm={4} md={4}>
-              <h3 className={classes.title} style={{marginBottom: "0px"}}>TENSOSTRUTTURA</h3>
-              <h3 className={classes.title} style={{marginTop: "0px"}}>TRIFISA</h3>
-              <h4 className={classes.description}>
-                Serata danzante
-              </h4>
+              <h3 className={classes.title} style={{ marginBottom: "0px" }}>
+                TENSOSTRUTTURA
+              </h3>
+              <h3 className={classes.title} style={{ marginTop: "0px" }}>
+                TRIFISA
+              </h3>
+              <h4 className={classes.description}>Serata danzante</h4>
             </GridItem>
           </GridContainer>
         </GridItem>

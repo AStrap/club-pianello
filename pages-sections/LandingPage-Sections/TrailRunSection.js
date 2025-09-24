@@ -15,7 +15,10 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section} style={{background: "#e44051", borderRadius: "6px 6px 0 0"}}>
+    <div
+      className={classes.section}
+      style={{ background: "#e44051", borderRadius: "6px 6px 0 0" }}
+    >
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>31 MAGGIO 2025</h2>

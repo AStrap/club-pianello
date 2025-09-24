@@ -31,7 +31,7 @@ export default function SectionCarousel() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <Card carousel>
-              <Slider {...settings}>
+              <Carousel {...settings}>
                 <div>
                   <img
                     src="/img/bg.jpg"

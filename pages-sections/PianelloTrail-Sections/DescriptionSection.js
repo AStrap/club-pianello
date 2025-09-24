@@ -33,8 +33,12 @@ export default function ProductSection() {
           >
             ISCRIVITI
           </Button>
-          <h3 className={classes.title} style={{marginBottom:"0"}}>31 MAGGIO 2025</h3>
-          <h4 className={classes.description} style={{marginTop:"0"}}>PIANELLO - GRIGNO (TN)</h4>
+          <h3 className={classes.title} style={{ marginBottom: "0" }}>
+            31 MAGGIO 2025
+          </h3>
+          <h4 className={classes.description} style={{ marginTop: "0" }}>
+            PIANELLO - GRIGNO (TN)
+          </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <h5 className={classes.title}>PIANELLO TRAIL RUN</h5>

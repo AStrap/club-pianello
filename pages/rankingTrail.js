@@ -63,9 +63,9 @@ export default function LandingPage(props) {
         className={classNames(classes.main, classes.mainRaised)}
         style={{ margin: "-680px 30px 0px" }}
       >
-        <div className={classes.container} style={{minHeight: "1000px"}}>
-            <PianelloRanking />
-            <TotalRanking />
+        <div className={classes.container} style={{ minHeight: "1000px" }}>
+          <PianelloRanking />
+          <TotalRanking />
         </div>
       </div>
       <Footer />

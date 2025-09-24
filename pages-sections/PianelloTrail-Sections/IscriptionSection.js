@@ -14,7 +14,7 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section} style={{backgroundColor: "#e65e6cff"}}>
+    <div className={classes.section} style={{ backgroundColor: "#e65e6cff" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h3 className={classes.title}>QUOTE DI ISCRIZIONE</h3>

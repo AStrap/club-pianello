@@ -30,12 +30,12 @@ export default function Footer(props) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-            <div className={classes.block} style={{color: "white"}}>
-              CLUB PIANELLO
-            </div>
-            <div className={classes.block} style={{color: "lightgrey"}}>
-              Loc. Pianello 38055 Grigno (TN)
-            </div>
+          <div className={classes.block} style={{ color: "white" }}>
+            CLUB PIANELLO
+          </div>
+          <div className={classes.block} style={{ color: "lightgrey" }}>
+            Loc. Pianello 38055 Grigno (TN)
+          </div>
         </div>
         <div className={classes.right}>
           <img

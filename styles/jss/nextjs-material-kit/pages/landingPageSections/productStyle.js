@@ -15,7 +15,7 @@ const productStyle = {
   },
   description: {
     color: "#000000",
-    fontWeight: "700"
+    fontWeight: "700",
   },
   navLink: {
     color: "black",
@@ -33,7 +33,7 @@ const productStyle = {
     },
     "&:visited": {
       color: "black",
-    }
+    },
   },
 };
 

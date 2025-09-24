@@ -16,6 +16,8 @@ import Parallax from "/components/Parallax/Parallax.js";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
+import DescriptionSection from "/pages-sections/RuleTrail-Sections/DescriptionSection.js";
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -59,8 +61,8 @@ export default function LandingPage(props) {
         className={classNames(classes.main, classes.mainRaised)}
         style={{ margin: "-680px 30px 0px" }}
       >
-        <div style={{background: "#e44051", borderRadius: "6px"}}>
-          
+        <div style={{ background: "#e44051", borderRadius: "6px" }}>
+          <DescriptionSection />
         </div>
       </div>
       <Footer />

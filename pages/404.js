@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
 export default class _error extends Component {
-  componentDidMount = () => {
-  };
+  componentDidMount = () => {};
 
   render() {
     return <div />;

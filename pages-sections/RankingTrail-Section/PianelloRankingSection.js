@@ -17,7 +17,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
-          <h2 className={classes.title}>Classifica tempi Pianello Trail Run 2025 - Tempi Discesa</h2>
+          <h2 className={classes.title}>
+            Classifica tempi Pianello Trail Run 2025 - Tempi Discesa
+          </h2>
         </GridItem>
       </GridContainer>
     </div>
