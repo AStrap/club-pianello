@@ -420,21 +420,32 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={10} style={{ textAlign: "left" }}>
           <h3 className={classes.title}>15. PRIVACY</h3>
           <h4 className={classes.description} style={{ marginBottom: "0" }}>
-            Con l’iscrizione, ai sensi dell’art.13 del Regolamento UE/2016/679 e ai sensi dell’art. 13 del DLgs 30/06/2003 n. 196, i partecipanti autorizzano l’organizzazione della “Club Pianello” al trattamento dei dati personali che li riguardano. Tale trattamento, cautelato da opportune misure idonee a garantire la sicurezza e la riservatezza dei dati stessi, avverrà esclusivamente per finalità legate a detta manifestazione. 
+            Con l’iscrizione, ai sensi dell’art.13 del Regolamento UE/2016/679 e
+            ai sensi dell’art. 13 del DLgs 30/06/2003 n. 196, i partecipanti
+            autorizzano l’organizzazione della “Club Pianello” al trattamento
+            dei dati personali che li riguardano. Tale trattamento, cautelato da
+            opportune misure idonee a garantire la sicurezza e la riservatezza
+            dei dati stessi, avverrà esclusivamente per finalità legate a detta
+            manifestazione.
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={10} style={{ textAlign: "left" }}>
           <h3 className={classes.title}>16. AVVERTENZE IL COMITATO</h3>
           <h4 className={classes.description} style={{ marginBottom: "0" }}>
-            Organizzatore si riserva di modificare il presente regolamento per motivi legati ad un miglior svolgimento della gara. Si invitano pertanto i partecipanti a seguire i profili social della gara (Facebook, Instagram) e controllare regolarmente il sito web. 
-
-Per qualsiasi comunicazione il comitato organizzatore è contattabile via mail scrivendo al seguente indirizzo:
-
-social.clubpianello@libero.it</h4>
+            Organizzatore si riserva di modificare il presente regolamento per
+            motivi legati ad un miglior svolgimento della gara. Si invitano
+            pertanto i partecipanti a seguire i profili social della gara
+            (Facebook, Instagram) e controllare regolarmente il sito web. Per
+            qualsiasi comunicazione il comitato organizzatore è contattabile via
+            mail scrivendo al seguente indirizzo: social.clubpianello@libero.it
+          </h4>
           <h3 className={classes.description} style={{ marginTop: "30px" }}>
-            Buona gara a tutti! 
+            Buona gara a tutti!
           </h3>
-          <h3 className={classes.description} style={{ marginTop: "20px", marginBottom: "0px" }}>
+          <h3
+            className={classes.description}
+            style={{ marginTop: "20px", marginBottom: "0px" }}
+          >
             Il Comitato Organizzatore
           </h3>
           <h3 className={classes.description} style={{ marginTop: "0px" }}>

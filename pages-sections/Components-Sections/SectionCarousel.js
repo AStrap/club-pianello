@@ -15,7 +15,6 @@ import styles from "/styles/jss/nextjs-material-kit/pages/componentsSections/car
 const useStyles = makeStyles(styles);
 
 export default function SectionCarousel() {
-  
   const classes = useStyles();
   const settings = {
     dots: true,
@@ -23,7 +22,7 @@ export default function SectionCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false
+    autoplay: false,
   };
   return (
     <div className={classes.section}>

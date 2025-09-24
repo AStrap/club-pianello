@@ -61,9 +61,7 @@ export default function ProductSection() {
             In collaborazione con “CRONOSCALATA PIOVEGA" - ENDURANCE TEAM e “DON
             CESARE TRAIL” - PRO LOCO BORGO VALSUGANA.
           </h4>
-          <h4 className={classes.description}>
-            CIRCUITO 3IL RUN (TODO sotto sistemare logo)
-          </h4>
+          <h4 className={classes.description}>CIRCUITO 3IL RUN</h4>
           <img
             alt="logo trailrun"
             src={"/img/pianello/logo3ilwh.png"}
