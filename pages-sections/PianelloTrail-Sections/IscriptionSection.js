@@ -23,7 +23,6 @@ export default function ProductSection() {
               <InfoArea
                 title="10.00 €"
                 description="dal 03 marzo al 29 maggio"
-                iconColor="primary"
                 vertical
               />
             </GridItem>

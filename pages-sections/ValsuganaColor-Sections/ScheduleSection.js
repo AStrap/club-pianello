@@ -16,30 +16,91 @@ export default function ProductSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={9}>
-          <h2 className={classes.title}>DOMENICA 01 GIUGNO 2025</h2>
-          <h4 className={classes.description}>Color Run Day!</h4>
-          <h3 className={classes.title}>Ore 13.30 ESTERNO TENSOSTRUTTURA</h3>
-          <h3 className={classes.description}>Accreditamento del Race Kit*</h3>
-          <h3 className={classes.description}>
-            Apertura Area Bimbi (con gonfiabili)
-          </h3>
-          <h3 className={classes.title}>Ore 16.00 ESTERNO TENSOSTRUTTURA</h3>
-          <h3 className={classes.description}>Partenza animata con Zumba</h3>
-          <h3 className={classes.title}>Ore 18.00 TENSOSTRUTTURA </h3>
-          <h3 className={classes.description}>Aperycrazy</h3>
-          <h4 className={classes.description}>arrosticini patatine e birra</h4>
-          <h3 className={classes.title}>Ore 19.00 TENSOSTRUTTURA</h3>
-          <h3 className={classes.description}>Apertura stand gastronomico</h3>
-          <h3 className={classes.description}>Panini onti e bruschette</h3>
-          <h3 className={classes.title}>Ore 21.00 TENSOSTRUTTURA</h3>
-          <h3 className={classes.description}>RIVIDA</h3>
-          <h3 className={classes.description}>DJ SET</h3>
-          <img
-            alt="logo trailrun"
-            src={"/img/pianello/logorivida.png"}
-            style={{ height: "150px" }}
-          />
+        <GridItem xs={12} sm={12} md={12}>
+          <h2 className={classes.title} style={{ marginTop: "0" }}>
+            DOMENICA 01 GIUGNO 2025
+          </h2>
+          <h4 className={classes.description} style={{ marginTop: "0" }}>
+            Color Run Day!
+          </h4>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <GridContainer justify="center">
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
+              <h3 className={classes.description}>Ore 13.30</h3>
+            </GridItem>
+            <GridItem xs={4} sm={4} md={4}>
+              <h3 className={classes.title}>ESTERNO TENSOSTRUTTURA</h3>
+              <h4 className={classes.description}>
+                Accreditamento del Race Kit*
+              </h4>
+              <h4 className={classes.description}>
+                Apertura Area Bimbi (con gonfiabili)
+              </h4>
+            </GridItem>
+          </GridContainer>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <GridContainer justify="center">
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
+              <h3 className={classes.description}>Ore 16.00</h3>
+            </GridItem>
+            <GridItem xs={4} sm={4} md={4}>
+              <h3 className={classes.title}>ESTERNO TENSOSTRUTTURA</h3>
+              <h4 className={classes.description}>
+                Partenza animata con Zumba
+              </h4>
+              <img
+                alt="logo trailrun"
+                src={"/img/pianello/crew.png"}
+                style={{ height: "70px" }}
+              />
+            </GridItem>
+          </GridContainer>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <GridContainer justify="center">
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
+              <h3 className={classes.description}>Ore 18.00</h3>
+            </GridItem>
+            <GridItem xs={4} sm={4} md={4}>
+              <h3 className={classes.title}>TENSOSTRUTTURA</h3>
+              <h4 className={classes.description}>Aperycrazy</h4>
+              <h4 className={classes.description}>
+                arrosticini patatine e birra
+              </h4>
+            </GridItem>
+          </GridContainer>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <GridContainer justify="center">
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
+              <h3 className={classes.description}>Ore 19.00</h3>
+            </GridItem>
+            <GridItem xs={4} sm={4} md={4}>
+              <h3 className={classes.title}>TENSOSTRUTTURA</h3>
+              <h4 className={classes.description}>
+                Apertura stand gastronomico
+              </h4>
+              <h4 className={classes.description}>Panini onti e bruschette</h4>
+            </GridItem>
+          </GridContainer>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <GridContainer justify="center">
+            <GridItem xs={4} sm={4} md={2} style={{ marginTop: "10px" }}>
+              <h3 className={classes.description}>Ore 21.00</h3>
+            </GridItem>
+            <GridItem xs={4} sm={4} md={4}>
+              <h3 className={classes.title}>TENSOSTRUTTURA</h3>
+              <h4 className={classes.description}>DJ SET - RIVIDA</h4>
+              <img
+                alt="logo trailrun"
+                src={"/img/pianello/logorivida.png"}
+                style={{ height: "120px" }}
+              />
+            </GridItem>
+          </GridContainer>
         </GridItem>
       </GridContainer>
     </div>

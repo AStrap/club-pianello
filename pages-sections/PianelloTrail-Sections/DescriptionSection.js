@@ -26,7 +26,7 @@ export default function ProductSection() {
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
           <Button
-            href="/rankingTrail"
+            href="https://www.visitvalsugana.it/it/landing-esperienze/#/esperienze/TRN/8e531b71-82dc-4dcb-b862-481ce2e314d8/pianello-vertical-run---25-maggio-2024"
             color="transparent"
             className={classes.navLink}
             style={{ fontSize: "30px", marginTop: "20px" }}
@@ -51,7 +51,7 @@ export default function ProductSection() {
             documenti).
           </h5>
           <Button
-            href="/rankingTrail"
+            href="/3IlRun"
             color="transparent"
             className={classes.navLink}
             style={{ fontSize: "15px" }}

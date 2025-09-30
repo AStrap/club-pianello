@@ -131,7 +131,7 @@ export default function ProductSection() {
             </li>
             <li>certificato Medico in corso di validità</li>
           </ul>
-          <h4>L’iscrizione comprende: </h4>
+          <h4 className={classes.description}>L’iscrizione comprende: </h4>
           <ul className={classes.description} style={{ marginTop: "0" }}>
             <li>Pacco gara con gadget manifestazione </li>
             <li>Assicurazione</li>

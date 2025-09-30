@@ -12,7 +12,7 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { title, description, iconColor, vertical } = props;
+  const { title, description, iconColor, img, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -25,6 +25,13 @@ export default function InfoArea(props) {
   return (
     <div className={classes.infoArea}>
       <div className={classes.descriptionWrapper}>
+        {img && (
+          <img
+            alt="logo"
+            src={typeof img === "string" ? img : img.src}
+            style={{ height: "100px" }}
+          />
+        )}
         <h4 className={classes.title}>{title}</h4>
         <p className={classes.description}>{description}</p>
       </div>
@@ -49,4 +56,12 @@ InfoArea.propTypes = {
     "gray",
   ]),
   vertical: PropTypes.bool,
+  img: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      alt: PropTypes.string,
+      height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    }),
+  ]),
 };

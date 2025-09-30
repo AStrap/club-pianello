@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import InfoArea from "/components/InfoArea/InfoArea.js";
+import Button from "/components/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
@@ -14,44 +14,106 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{ backgroundColor: "#b4df3cff" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={9}>
           <h2 className={classes.title}>FAQ</h2>
           <h4 className={classes.description}>
-            Posso partecipare senza iscrizione?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Posso partecipare senza iscrizione?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Cosa mi viene dato in seguito all’iscrizione?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Cosa mi viene dato in seguito all’iscrizione?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Dove posso ritirare il mio pacco gara?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Dove posso ritirare il mio pacco gara?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            I colori sono dannosi per me o i vestiti?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              I colori sono dannosi per me o i vestiti?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Esiste un limite di età per essere un color runner?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Esiste un limite di età per essere un color runner?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            È possibile essere rimborsati?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              È possibile essere rimborsati?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Ho altri dubbi a chi posso rivolgermi?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Ho altri dubbi a chi posso rivolgermi?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Posso spingere un passeggino lungo il percorso?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Posso spingere un passeggino lungo il percorso?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            È possibile trasferire la mia iscrizione ad altra persona?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              È possibile trasferire la mia iscrizione ad altra persona?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Devo produrre dei documenti particolari per iscrivermi?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Devo produrre dei documenti particolari per iscrivermi?
+            </a>
           </h4>
           <h4 className={classes.description}>
-            Devo essere un corridore professionista per partecipare?
+            <a
+              href="/faqColor"
+              style={{ color: "black", textDecoration: "inherit" }}
+            >
+              Devo essere un corridore professionista per partecipare?
+            </a>
           </h4>
-          <h4 className={classes.title}>CONTATTACI</h4>
+          <Button
+            href="/contacts"
+            color="transparent"
+            className={classes.navLink}
+            style={{ fontSize: "20px", marginTop: "20px" }}
+          >
+            CONTATTACI
+          </Button>
         </GridItem>
       </GridContainer>
     </div>
