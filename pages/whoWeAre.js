@@ -62,7 +62,7 @@ export default function LandingPage(props) {
         className={classNames(classes.main, classes.mainRaised)}
         style={{ margin: "-680px 30px 0px" }}
       >
-        <div className={classes.container}>
+        <div style={{ background: "#9c5bf1ff", borderRadius: "6px" }}>
           <DescriptionSection />
         </div>
       </div>

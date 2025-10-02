@@ -9,7 +9,7 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
 
-import styles from "/styles/jss/nextjs-material-kit/components/customInputStyle.js";
+import styles from "/styles/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -60,6 +60,7 @@ export default function CustomInput(props) {
           className={classes.labelRoot + " " + labelClasses}
           htmlFor={id}
           {...labelProps}
+          style={{ fontSize: "20px" }}
         >
           {labelText}
         </InputLabel>

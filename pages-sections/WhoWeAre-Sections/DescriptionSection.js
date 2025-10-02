@@ -24,8 +24,21 @@ export default function ProductSection() {
   };
   return (
     <div className={classes.section}>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
+      <GridContainer justify="center">
+        <GridItem xs={12} sm={12} md={8}>
+          <h4 className={classes.description}>ASSOCIAZIONE</h4>
+          <h1 className={classes.title}>CLUB PIANELLO</h1>
+          <h3 className={classes.title}>...eravamo quattro amici al bar</h3>
+        </GridItem>
+      </GridContainer>
+      <GridContainer justify="center">
+        <GridItem
+          xs={12}
+          sm={12}
+          md={8}
+          className={classes.marginAuto}
+          style={{ width: "70%" }}
+        >
           <Card carousel>
             <Carousel {...settings} style={{ height: "757px" }}>
               <div>
@@ -177,14 +190,7 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h4 className={classes.description}>ASSOCIAZIONE</h4>
-          <h1 className={classes.title}>CLUB PIANELLO</h1>
-          <h3 className={classes.title}>...eravamo quattro amici al bar</h3>
-        </GridItem>
-      </GridContainer>
-      <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={10}>
           <h4 className={classes.description}>
             "Eravamo quattro amici al bar”. È proprio così! La nascita ufficiale
             del Club Pianello risale alla primavera del 1977, dove un gruppo di
@@ -199,7 +205,7 @@ export default function ProductSection() {
             costruita.{" "}
           </h4>
         </GridItem>
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={10}>
           <h4 className={classes.description}>
             Primo presidente del Club Pianello viene eletto Silvano Fante. E
             così il 29 maggio 1977, favoriti da una splendida giornata prendono
@@ -246,7 +252,7 @@ export default function ProductSection() {
             ad oggi è ancora l’attuale Presidente!
           </h4>
         </GridItem>
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={10}>
           <h4 className={classes.description}>
             Tradizionale è diventato il Pranzo delle Contrade, che vede per lo
             meno in quel giorno il rimpatrio di molti ex abitanti e molto

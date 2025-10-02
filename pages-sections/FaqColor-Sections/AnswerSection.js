@@ -14,7 +14,10 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section} style={{ background: "#f58f4bff" , borderRadius: "0 0 6px 6px" }}>
+    <div
+      className={classes.section}
+      style={{ background: "#f58f4bff", borderRadius: "0 0 6px 6px" }}
+    >
       <GridContainer justify="center" style={{ textAlign: "left" }}>
         <GridItem xs={12} sm={12} md={9}>
           <h2 className={classes.title}>Posso partecipare senza iscrizione?</h2>

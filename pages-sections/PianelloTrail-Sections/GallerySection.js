@@ -77,8 +77,9 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
           <Card
+            carousel
             style={{ marginTop: "0", height: "757px", borderRadius: "10px" }}
           >
             <Carousel {...settings} style={{ borderRadius: "10px" }}>
