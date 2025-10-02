@@ -14,6 +14,7 @@ import GridItem from "/components/Grid/GridItem.js";
 import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
 
+
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
@@ -63,7 +64,7 @@ export default function LandingPage(props) {
         className={classNames(classes.main, classes.mainRaised)}
         style={{ margin: "-680px 30px 0px" }}
       >
-        <div className={classes.container}>
+        <div style={{ background: "#e44051", borderRadius: "6px" }}>
           <DescriptionSection />
           <CompetitionsSection />
         </div>

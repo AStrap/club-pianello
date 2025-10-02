@@ -24,16 +24,11 @@ export default function ProductSection() {
           <h3 className={classes.title}>
             Il circuito che mette alla prova la tua resistenza!
           </h3>
-          <h3 className={classes.title}>
+          <h4 className={classes.description}>
             Tre competizioni D+400 con premiazioni individuali. Partecipando a
             tutte, accederai alla classifica finale, ottenuta sommando i tempi
-            delle prove disputate.{" "}
-          </h3>
-          <img
-            alt="img manRunner"
-            src={"/img/pianello/manRunner.png"}
-            style={{ height: "460px" }}
-          />
+            delle prove disputate.
+          </h4>
         </GridItem>
       </GridContainer>
     </div>
