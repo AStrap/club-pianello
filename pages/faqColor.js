@@ -17,7 +17,7 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import FaqSection from "/pages-sections/ValsuganaColor-Sections/FaqSection.js";
+import FaqSection from "/pages-sections/FaqColor-Sections/FaqSection.js";
 import AnswerSection from "/pages-sections/FaqColor-Sections/AnswerSection.js";
 
 const dashboardRoutes = [];
@@ -63,9 +63,8 @@ export default function LandingPage(props) {
         className={classNames(classes.main, classes.mainRaised)}
         style={{ margin: "-680px 30px 0px" }}
       >
-        <div className={classes.container}>
+        <div style={{ background: "#f77219ff", borderRadius: "6px" }}>
           <FaqSection />
-          <hr />
           <AnswerSection />
         </div>
       </div>

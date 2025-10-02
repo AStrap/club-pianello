@@ -14,8 +14,8 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
-      <GridContainer justify="center">
+    <div className={classes.section} style={{ background: "#f58f4bff" , borderRadius: "0 0 6px 6px" }}>
+      <GridContainer justify="center" style={{ textAlign: "left" }}>
         <GridItem xs={12} sm={12} md={9}>
           <h2 className={classes.title}>Posso partecipare senza iscrizione?</h2>
           <h4 className={classes.description}>
@@ -100,15 +100,15 @@ export default function ProductSection() {
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             Esiste un limite di età per essere un color runner?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             La partecipazione è consentita a qualsiasi età.
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>È possibile essere rimborsati?</h3>
+          <h2 className={classes.title}>È possibile essere rimborsati?</h2>
           <h4 className={classes.description}>
             Le quote di partecipazione NON sono rimborsabili in alcun caso,
             anche di cancellazione della manifestazione per problemi di
@@ -116,9 +116,9 @@ export default function ProductSection() {
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             Ho altri dubbi a chi posso rivolgermi?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             Lo staff VALSUGANA COLOR RUN CRAZY è reperibile all’indirizzo mail:
             social.clubpianello@libero.it. Scrivici ti risponderemo il prima
@@ -126,9 +126,9 @@ export default function ProductSection() {
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             Posso spingere un passeggino lungo il percorso?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             Certamente, basta che il partecipante sia disposto a farsi colorare!
             Non saranno ammesse richieste di risarcimento danni relative ai
@@ -137,17 +137,17 @@ export default function ProductSection() {
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             È possibile trasferire la mia iscrizione ad altra persona?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             Per motivi organizzativi, non è possibile.
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             Devo produrre dei documenti particolari per iscrivermi?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             Per i minorenni è obbligatoria la liberatoria scaricabile QUI Con
             l’iscrizione si confermerà anche di essere in possesso di un
@@ -159,9 +159,9 @@ export default function ProductSection() {
           </h4>
         </GridItem>
         <GridItem xs={12} sm={12} md={9}>
-          <h3 className={classes.title}>
+          <h2 className={classes.title}>
             Devo essere un corridore professionista per partecipare?
-          </h3>
+          </h2>
           <h4 className={classes.description}>
             La VALSUGANA COLOR RUN CRAZY edizione 2025 è una corsa non
             competitiva sulla distanza 5K in Valsugana, all’interno del comune
