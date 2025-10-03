@@ -66,7 +66,7 @@ export default function Header(props) {
     [classes.fixed]: fixed,
   });
   const brandComponent = (
-    <Link href="/landing" as="/landing">
+    <Link href="/home" as="/home">
       <div style={{ cursor: "pointer" }}>
         <img alt="logo pianello" src={logoSrc} style={{ height: "60px" }} />
         <img

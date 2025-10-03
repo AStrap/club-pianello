@@ -22,35 +22,40 @@ export default function ProductSection() {
           </h4>
         </GridItem>
       </GridContainer>
-      <GridContainer justify="center" style={{marginTop:"40px"}}>
+      <GridContainer justify="center" style={{ marginTop: "40px" }}>
         <GridItem xs={12} sm={12} md={8}>
-          <GridContainer >
-        <GridItem xs={12} sm={12} md={4}>
-          <a href="https://www.instagram.com/club_pianello/"><InfoArea
-            title="INSTAGRAM"
-            description=""
-            img="/img/pianello/instagram.png"
-            vertical
-          />
-          </a>
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-          <a href="https://www.facebook.com/clubpianello/"><InfoArea
-            title="FACEBOOK"
-            description=""
-            img="/img/pianello/facebook.png"
-            vertical
-          /></a>
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-          <a href="mailto:social.clubpianello@libero.it?subject=Richiesta informazioni"><InfoArea
-            title="EMAIL"
-            description=""
-            img="/img/pianello/email.png"
-            vertical
-          /></a>
-        </GridItem>
-        </GridContainer>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={4}>
+              <a href="https://www.instagram.com/club_pianello/">
+                <InfoArea
+                  title="INSTAGRAM"
+                  description=""
+                  img="/img/pianello/instagram.png"
+                  vertical
+                />
+              </a>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <a href="https://www.facebook.com/clubpianello/">
+                <InfoArea
+                  title="FACEBOOK"
+                  description=""
+                  img="/img/pianello/facebook.png"
+                  vertical
+                />
+              </a>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <a href="mailto:social.clubpianello@libero.it?subject=Richiesta informazioni">
+                <InfoArea
+                  title="EMAIL"
+                  description=""
+                  img="/img/pianello/email.png"
+                  vertical
+                />
+              </a>
+            </GridItem>
+          </GridContainer>
         </GridItem>
       </GridContainer>
     </div>
