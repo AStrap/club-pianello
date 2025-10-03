@@ -45,7 +45,12 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/pianello/banner.png" style={{ position: "absolute", top: 0, left: 0, width: "100%"}}>
+      <Parallax
+        filter
+        responsive
+        image="/img/pianello/banner.png"
+        style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
+      >
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
@@ -61,7 +66,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div
         className={classNames(classes.main, classes.mainRaised)}
-        style={{ margin: "0px 30px",  top: "100px" }}
+        style={{ margin: "0px 30px", top: "100px" }}
       >
         <div style={{ background: "#f77219ff", borderRadius: "6px" }}>
           <FaqSection />
